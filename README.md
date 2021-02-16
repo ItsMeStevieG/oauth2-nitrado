@@ -53,7 +53,7 @@ if (!isset($_GET['code'])) {
     // If we don't have an authorization code then get one
     $authUrl = $provider->getAuthorizationUrl([
         'scope' => [
-            ItsMeStevieG\OAuth2\Client\Provider\Nitrado::SCOPE_USER_READ_EMAIL,
+            ItsMeStevieG\OAuth2\Client\Provider\Nitrado::SCOPE_USER_INFO,
         ]
     ]);
 
@@ -122,7 +122,7 @@ Please see [CONTRIBUTING](https://github.com/itsmestevieg/oauth2-nitrado/blob/ma
 
 ## Credits
 
-- [Romain Monteil](https://github.com/ItsMeStevieG)
+- [Steven Graham](https://github.com/ItsMeStevieG)
 
 ## License
 
