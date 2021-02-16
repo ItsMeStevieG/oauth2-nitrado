@@ -1,4 +1,7 @@
 <div align="center">
+    <a href="https://gitter.im/oauth2-nitrado/community" title="Repo Chat">
+        <img alt="Gitter" src="https://img.shields.io/gitter/room/itsmestevieg/auth2-nitrado?style=for-the-badge" alt="Chat on Gitter">
+    </a>
     <a href="https://php.net" title="PHP Version">
         <img src="https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg?style=for-the-badge" alt="PHP Version">
     </a>
