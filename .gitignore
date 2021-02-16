@@ -1,0 +1,12 @@
+build/
+vendor/
+composer.lock
+.php_cs
+.php_cs.cache
+.phpunit.result.cache
+phpunit.xml
+tests
+test.php
+.vscode
+.devcontainer
+.mysql-data

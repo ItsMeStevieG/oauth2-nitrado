@@ -1,0 +1,50 @@
+{
+  "name": "itsmestevieg/oauth2-nitrado",
+  "type": "library",
+  "description": "Nitrado OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+  "keywords": [
+    "php",
+    "nitrado",
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authentication"
+  ],
+  "homepage": "https://github.com/itsmestevieg/oauth2-nitrado",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steven Graham",
+      "email": "steg2005@gmail.com",
+      "homepage": "https://github.com/itsmestevieg",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "league/oauth2-client": "^2.6.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.17",
+    "phpunit/phpunit": "^8.5"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ItsMeStevieG\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ItsMeStevieG\\OAuth2\\Client\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "php-cs-fixer": "vendor/bin/php-cs-fixer fix --diff --verbose --config=.php_cs",
+    "phpunit": "vendor/bin/phpunit --coverage-text --coverage-clover=build/coverage.xml"
+  }
+}
