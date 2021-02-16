@@ -2,9 +2,6 @@
     <a href="https://github.com/itsmestevieg/oauth2-nitrado/actions" title="Build">
         <img src="https://img.shields.io/github/workflow/status/itsmestevieg/oauth2-nitrado/ci?style=for-the-badge" alt="Build">
     </a>
-    <a href="https://scrutinizer-ci.com/g/itsmestevieg/oauth2-nitrado/" title="Coverage">
-        <img src="https://img.shields.io/codecov/c/gh/itsmestevieg/oauth2-nitrado?style=for-the-badge" alt="Coverage">
-    </a>
     <a href="https://php.net" title="PHP Version">
         <img src="https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg?style=for-the-badge" alt="PHP Version">
     </a>
