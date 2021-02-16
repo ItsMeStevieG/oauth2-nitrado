@@ -1,7 +1,4 @@
 <div align="center">
-    <a href="https://github.com/itsmestevieg/oauth2-nitrado/actions" title="Build">
-        <img src="https://img.shields.io/github/workflow/status/itsmestevieg/oauth2-nitrado/ci?style=for-the-badge" alt="Build">
-    </a>
     <a href="https://php.net" title="PHP Version">
         <img src="https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg?style=for-the-badge" alt="PHP Version">
     </a>
