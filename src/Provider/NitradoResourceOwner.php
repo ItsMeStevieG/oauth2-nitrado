@@ -29,7 +29,7 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['username'] ?? null;
     }
 
-    public function getActivated(): ?string
+    public function getActivated(): ?bool
     {
         return $this->data['user']['activated'] ?? null;
     }
@@ -69,7 +69,7 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['avatar'] ?? null;
     }
 
-    public function getDonations(): string
+    public function getDonations(): bool
     {
         return $this->data['user']['donations'] ?? null;
     }
@@ -109,7 +109,7 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['permissions'] ?? [];
     }
 
-    public function getEmployee(): string
+    public function getEmployee(): bool
     {
         return $this->data['user']['employee'] ?? null;
     }
