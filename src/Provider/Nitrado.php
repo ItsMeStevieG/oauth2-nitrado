@@ -25,7 +25,7 @@ class Nitrado extends AbstractProvider
     // Access to a user's basic account information (username, email address, ...)
     public const SCOPE_USER_INFO = 'user_info';
 
-    // Access to a customers's rented services.
+    // Access to a customers rented services.
     public const SCOPE_SERVICE = 'service';
 
     // Access to billing-related endpoints.

@@ -26,8 +26,8 @@
     "league/oauth2-client": "^2.6.0"
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^2.17",
-    "phpunit/phpunit": "^8.5"
+    "friendsofphp/php-cs-fixer": "^2.18",
+    "phpunit/phpunit": "^9.5"
   },
   "config": {
     "optimize-autoloader": true,

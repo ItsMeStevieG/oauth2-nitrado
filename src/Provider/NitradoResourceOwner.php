@@ -29,6 +29,11 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['username'] ?? null;
     }
 
+    public function getActivated(): ?string
+    {
+        return $this->data['user']['activated'] ?? null;
+    }
+
     public function getTimeZone(): string
     {
         return $this->data['user']['timezone'] ?? null;
@@ -39,9 +44,9 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['email'] ?? null;
     }
 
-    public function getAvatar(): string
+    public function getCredit(): string
     {
-        return $this->data['user']['avatar'] ?? null;
+        return $this->data['user']['credit'] ?? null;
     }
 
     public function getCurrency(): string
@@ -49,19 +54,24 @@ class NitradoResourceOwner implements ResourceOwnerInterface
         return $this->data['user']['currency'] ?? null;
     }
 
-    public function getCredit(): string
+    public function getRegistered(): string
     {
-        return $this->data['user']['credit'] ?? null;
+        return $this->data['user']['registered'] ?? null;
     }
 
-    public function getEmployee(): string
+    public function getLanguage(): string
     {
-        return $this->data['user']['employee'] ?? null;
+        return $this->data['user']['language'] ?? null;
     }
 
-    public function getPartnerId(): string
+    public function getAvatar(): string
     {
-        return $this->data['user']['partner_id'] ?? null;
+        return $this->data['user']['avatar'] ?? null;
+    }
+
+    public function getDonations(): string
+    {
+        return $this->data['user']['donations'] ?? null;
     }
 
     public function getName(): string
@@ -92,6 +102,21 @@ class NitradoResourceOwner implements ResourceOwnerInterface
     public function getCountry(): ?string
     {
         return $this->data['user']['profile']['country'] ?? null;
+    }
+
+    public function getPermissions(): array
+    {
+        return $this->data['user']['permissions'] ?? [];
+    }
+
+    public function getEmployee(): string
+    {
+        return $this->data['user']['employee'] ?? null;
+    }
+
+    public function getPartnerId(): string
+    {
+        return $this->data['user']['partner_id'] ?? null;
     }
 
     /**
