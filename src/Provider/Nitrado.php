@@ -75,7 +75,7 @@ class Nitrado extends AbstractProvider
      */
     protected function getDefaultScopes(): array
     {
-        return [SCOPE_USER_INFO];
+        return [self::SCOPE_USER_INFO];
     }
 
     protected function getAuthorizationParameters(array $options)
